@@ -1,0 +1,20 @@
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 30px; 
+    
+  }
+  .button{
+    background-color: transparent;
+    border: none;
+    width: 290px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .button :hover{
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .button:hover{
+    transform: translateY(-10px); 
+    box-shadow: 10px 14px 4px 0px rgba(0, 0, 0, 0.25);  
+  }
