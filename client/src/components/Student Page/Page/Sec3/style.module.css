@@ -1,0 +1,77 @@
+.Container {
+    padding: 30px 10px;
+    width: auto;
+    height: auto;
+    background: #EDF0FACF;
+  }
+  
+.InsideContainerFirst{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.program{
+    padding-bottom: 16px;
+    width: 795px;
+height: 323.118px;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 7px 9px 20px 0px #D9D9D9;
+}
+.Live{
+    width: 371px;
+height: 323.118px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+box-shadow: 7px 3px 15px 0px #D9D9D9;
+}
+.Learn{
+    width: 231px;
+height: 80.498px;
+flex-shrink: 0;
+}
+.text1{
+    margin-top: 5%;
+    margin-left: 6%;
+    width: 420px;
+height: 169.582px;
+flex-shrink: 0;
+color: #000;
+font-family: PT Serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.learnMoreLink {
+    margin-top: 1px; /* Adjust the margin to control the spacing between text and Learn More */
+  }
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text2{
+    width: 137px;
+    height: 34.346px;
+    flex-shrink: 0;
+    color: #000;
+    margin-left: 30px;
+font-family: PT Serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+.SecondContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}

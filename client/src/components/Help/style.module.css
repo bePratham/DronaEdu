@@ -1,0 +1,17 @@
+.BOX{
+    justify-content: center;
+    align-items: center;
+
+}
+.FBox{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    color: #000;
+font-family: Sanchez;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

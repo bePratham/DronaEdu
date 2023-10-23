@@ -1,0 +1,20 @@
+.Container{
+    padding: 10vh;
+}
+.sortby{
+    width: 350px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+padding: 20px;
+padding-right: 0px;
+margin-top: 20px;
+}
+.Pagination{
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    gap: 30px;
+    margin-top: 8.7%
+}

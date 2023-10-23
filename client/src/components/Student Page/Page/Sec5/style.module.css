@@ -1,0 +1,24 @@
+.feedback{
+    margin-left: 6%;
+    margin-top: 3.5%;
+    color: #000;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Say{
+    display: flex;
+    margin-left: 6%;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.text1{
+    width: 653px;
+    color: #000;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}

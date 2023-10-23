@@ -1,0 +1,9 @@
+.input{
+    width: 600px;
+height: 40px;
+flex-shrink: 0;
+padding-left: 14px;
+border-radius: 20px;
+background: #EEEDED;
+border: none;
+}

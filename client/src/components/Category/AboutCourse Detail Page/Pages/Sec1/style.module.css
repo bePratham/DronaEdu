@@ -1,0 +1,101 @@
+
+.Parent{
+margin-top: 30px;
+display: flex;
+flex-shrink: 0;
+background: rgba(115, 142, 239, 0.30);
+gap:7%;
+}
+.heading1{
+    margin-left: 2.6%;
+    padding-top: 2%;
+    width: 297px;
+height: 31px;
+flex-shrink: 0;color: #5D5A6F;
+font-size: 24px;
+margin-top: 3%;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.FirstBox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.heading2{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #000;
+font-family: PT Serif Caption;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.details{
+    margin-top: 8.6%;
+    width: 362px;
+height: 513px;
+flex-shrink: 0;
+width: 362px;
+height: 513px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+display: flex;
+flex-direction: column;
+}
+.button{
+    border-radius: 12px;
+    width: 310px;
+height: 57px;
+flex-shrink: 0;
+background: #7290FA;
+border-radius: 12px;
+background: #7290FA;
+border: none;
+}
+.list{
+    margin-top: 20px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 340px;
+}
+.list li{
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.Box{
+    width: 740px;
+    height: 408px;
+    background: var(--background, #E7ECFC);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    border-radius: 20px;
+    background: #3465E1;
+    width: 250px;
+    height: 350px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    gap: 30px;
+    color: #FFF;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}

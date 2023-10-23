@@ -1,0 +1,85 @@
+.Container{
+    padding: 35px;
+}
+.FirstBox{
+margin-top: 30px;
+    height: 356px;
+flex-shrink: 0;
+display: flex;
+border-radius: 20px;
+background: #78a4f7;
+gap:30px;
+}
+.heading1{
+    margin-left: 2.6%;
+    padding-top: 2%;
+    width: 144.966px;
+height: 23.733px;
+flex-shrink: 0;color: rgba(10, 3, 60, 0.40);
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+}
+.heading2{
+    margin-top: 14%;
+    color: #0A033C;
+font-family: PT Serif Caption;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; 
+width: 399.941px;
+height: 131.852px;
+flex-shrink: 0;
+}
+.SearchBar{
+    border-radius: 10px;
+background: #FFF;
+/* width: 607px; */
+flex-shrink: 0;
+display: flex;
+margin-left: -13%;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+}
+.SearchButton{
+    width: 143px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+display: flex;
+background: #3465E1;
+}
+.DropDown{
+    border: none;
+}
+.SearchInput{
+    margin-left: -10px;
+    border: none;
+    width: 100%;
+}
+.studying{
+    width: 427.7px;
+height: 307.215px;
+justify-content: center;
+flex-shrink: 0;
+}
+.SearchButton {
+    border: none;
+    background: #3465E1;
+    cursor: pointer; 
+    transition: transform 0.2s; 
+    &:active {
+      transform: scale(0.95); 
+    }
+  }
+  

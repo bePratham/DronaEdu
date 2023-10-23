@@ -1,0 +1,25 @@
+.Box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11%;
+}
+.Box h1{
+    width: 850px;
+    height: 140px;
+    color: #1090CB;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 72px */
+}
+.text{
+    width: 1014px;
+height: 167px;
+    color: #585858;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 40px */
+}

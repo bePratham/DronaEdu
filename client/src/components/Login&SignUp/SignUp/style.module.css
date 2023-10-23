@@ -1,0 +1,86 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 3px;
+  background: #867b7b;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.container{
+  margin-top: 3%;
+  margin-bottom: 5%;
+  padding: 0px 10px;
+}
+.welcome{
+ text-align: center;
+ font-weight: 900;
+ font-size: x-large;
+ margin-top: -20px;
+}
+.loginSide{
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+.loginSide > * {
+  margin-bottom: 0px; /* Adjust the value to your preferred spacing */
+}
+.googleButton {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  color: #615858; 
+  border-radius: 20px;
+  border: 1px solid #ccc; 
+  height: 8.1%;
+  width: 100%;
+}
+.inputFieldContainer {
+  display: flex;
+  align-items: center;
+}
+.inputFieldContainer {
+  display: flex;
+  align-items: center;
+}
+
+.inputFieldWithButton {
+  position: relative;
+  flex: 1;
+}
+.togglePasswordButton {
+  position: absolute;
+  top: 35%;
+  right: 3%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.inputField {
+  height: 55px;
+  border: 1px solid #ccc;
+  padding-left: 12px;
+  border-radius: 19px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.inputField:hover {
+  border-color: #615858;
+}
+
+.googleIcon {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+.IMAGE{
+  height: 200%;
+  width: 50%;
+  border-radius: 20px;
+}

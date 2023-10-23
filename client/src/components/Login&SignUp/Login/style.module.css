@@ -1,0 +1,60 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 3px;
+  background: #867b7b;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.container{
+  margin-top: 5%;
+}
+.welcome{
+ text-align: center;
+ font-weight: 900;
+ font-size: x-large;
+ margin-right: 10px;
+ margin-top: -20px;
+}
+.loginSide{
+  align-items: center;
+  margin-right: 20px;
+}
+.googleButton {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  color: #615858; 
+  border-radius: 20px;
+  border: 1px solid #ccc; 
+  height: 13%;
+  width: 100%;
+}
+.inputField {
+  height: 12%;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px; 
+  margin-bottom: 15px; 
+}
+
+.inputField:hover {
+  border-color: #615858;
+}
+
+.googleIcon {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+.IMAGE{
+  height: 200%;
+  width: 50%;
+  border-radius: 20px;
+}

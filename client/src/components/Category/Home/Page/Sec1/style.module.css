@@ -1,0 +1,105 @@
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; 
+}
+.container1{
+  margin-top: -10%;
+  margin-left: 5%;
+}
+.text1{
+  margin-top: 10%;
+  color: rgb(39, 32, 32); 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text2{
+  color: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+width: 526px;
+line-height: normal;
+}
+.text3{
+  width: 1146px;
+height: 221px;
+flex-shrink: 0;
+color: #696984;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 43.2px */
+letter-spacing: 0.48px;
+}
+.container2 {
+  width: 600px;
+  height: 600px;
+  flex-shrink: 0;
+  margin-right: 2%;
+  background: rgba(255, 255, 255, 0.5) url('../../../../../assets/images/div1.png') 50% / cover no-repeat;
+}
+/* Style for the Get Started button */
+.getStartedButton {
+  width: 170px;
+  height: 46px;
+  flex-shrink: 0;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) 
+          drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) 
+          drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) 
+          drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-size: 20px; 
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: #506DD4; 
+  color: #FFFFFF; 
+  border: none; 
+  cursor: pointer;
+}
+.getStartedButton:hover {
+  background-color: #405CA7; 
+}
+/* Style for the transparent circle */
+.transparentCircle {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-top: -15%;
+  margin-left: -33%;
+  width: 1000.326px;
+height: 1013.577px;
+transform: rotate(-80.508deg);
+    background-color: rgba(84, 150, 194, 0.5); /* Transparent white background */
+    border-radius: 1039.577px;
+    background: linear-gradient(204deg, #506DD4 12%, rgba(80, 109, 212, 0.00) 75.09%);
+    mix-blend-mode: hard-light;
+  pointer-events: none; 
+}
+.WhatIs{  
+  display: flex; 
+  margin-top: -5%;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+}
+.h1{
+  position: relative; 
+  z-index: 2;
+  width: 494px;
+height: 80.581px;
+flex-shrink: 0;
+color: #2F327D;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: 180%;
+}

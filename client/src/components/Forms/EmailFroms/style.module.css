@@ -1,0 +1,27 @@
+.customInput {
+    width: 482px;
+    height: 67px;
+    flex-shrink: 0;
+    border: none;
+    font-family: Inter;
+    font-size: 24px;
+    border-radius: 33px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.30);
+    padding-left: 15%; 
+    font-size: 16px; 
+}
+
+
+.customInput::placeholder {
+    color: #555; 
+}
+.customIcon {
+    position: absolute;
+    top: 50%;
+    height: auto;
+    transform: translateY(-50%);
+    left: 10px; 
+    font-size: 24px; 
+    color: #333; 
+}

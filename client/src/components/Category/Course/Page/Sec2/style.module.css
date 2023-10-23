@@ -1,0 +1,24 @@
+.Container{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
+}
+.Button{
+    width: 155.681px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+    background: rgba(16, 78, 174, 0.24);
+}
+.clicked{
+    border-radius: 30px;
+background: #3465E1;
+box-shadow: -3px 4px 50px 4px #659AFF;
+}

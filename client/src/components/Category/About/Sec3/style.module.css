@@ -1,0 +1,51 @@
+.Box{
+    padding-left: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.h1{
+    color: #000;
+    width: 400px;
+    height: 109px;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
+}
+.text{
+    width: 400px;
+height: 150px;
+flex-shrink: 0;
+    color: #585858;
+font-family: sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 200%; /* 40px */
+}
+.button{
+    width: 193px;
+height: 51px;
+border-radius: 10px;
+border: 1px solid #1090CB;
+background: #FFF;
+color: #1090CB;
+}
+.b2 {
+    width: 766px;
+    height: auto;
+    box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.10);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    text-align: center;
+    padding-top: 40px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

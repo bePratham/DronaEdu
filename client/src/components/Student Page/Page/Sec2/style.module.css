@@ -1,0 +1,37 @@
+.Container{
+margin-top: 4%;
+flex-shrink: 0;
+background: rgba(237, 240, 250, 0.81);
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.48);
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.heading{
+    color: #000;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.button{
+    width: 297px;
+height: 73px;
+flex-shrink: 0;
+border-radius: 17px;
+background: #1643E5;
+}
+/* style.module.css */
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+  

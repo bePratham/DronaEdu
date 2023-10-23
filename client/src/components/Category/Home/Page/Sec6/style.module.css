@@ -1,0 +1,103 @@
+.card{
+    width: 419.538px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 18.206px;
+    background: #FFF;
+    box-shadow: 0px 9.10294px 43.69412px 0px rgba(40, 43, 111, 0.10);
+    background-color: #FFFFFF;
+    margin-left: 9%;
+}
+.Ques{
+    display: flex;
+}
+.question{
+    margin-top: 15%;
+    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160.856px;
+height: 54.613px;
+flex-shrink: 0;
+border-radius: 72.824px;
+background: #CDD8FF;
+color: #717FB0;
+font-family: Poppins;
+font-size: 20.026px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 32.042px */
+}
+.MainContainer{
+    margin-top: 5%;
+    display: flex;
+    height: 50vmax;
+}
+.text1{
+    margin-top: 5%;
+    margin-left: 8.9%;
+    width: 357.065px;
+height: 117.963px;
+flex-shrink: 0;
+    color: #55578D;
+font-family: Poppins;
+font-size: 30.95px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 49.52px */
+}
+.image{
+    width: 478.24px;
+height: 331.065px;
+margin-top: -5%;
+flex-shrink: 0;
+border-radius: 18.206px;
+padding: 20px;
+position: relative; 
+}
+.answer{
+    display: flex;
+    padding: 35px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+  top: -10%;
+  left: 47%;
+  transform: translateY(-50%); 
+    background-color: #babbd3;
+    width: 336.737px;
+height: 136.532px;
+flex-shrink: 0;
+border-radius: 18.206px;
+background: #FFF;
+box-shadow: 0px 18.20588px 52.79706px 0px rgba(40, 43, 111, 0.08);
+}
+.Asses{
+width: 320.108px;
+height: 145.926px;
+flex-shrink: 0;
+color: #2F327D;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%;
+}
+.rightSide{
+    margin-left: 24%;
+    margin-top: 5%;
+}
+.text2{
+    margin-top: 20%;
+    width: 480.81px;
+height: 136.806px;
+flex-shrink: 0;
+    color: #696984;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 39.6px */
+letter-spacing: 0.44px;
+}
