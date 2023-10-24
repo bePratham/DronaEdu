@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 6%;
+    align-items: center;
+    width: 370px;
+    height: 800px;
+    gap: 30px;
+    background: #FFF;
+    box-shadow: 5px 4px 25px 2px rgba(0, 0, 0, 0.25);
+}
+.Addbutton{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0px solid #FFF;
+    background: #FFA500;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.button{
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: rgba(178, 179, 207, 0.07);
+    width: 300px;
+    height: 70px;
+    flex-shrink: 0;
+    padding-left: 20px;
+    color: #000;
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.activeButton{
+    background-color: #2C3E50;
+    color: #FFF;
+}

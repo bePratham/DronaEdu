@@ -1,0 +1,69 @@
+.Container{
+    margin-top: 40px;
+    width: 940px;
+    height: 1500px;
+    background: #FFF;
+    padding-right: 30px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px #525151;
+    padding: 20px;
+    padding-left: 40px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+}
+.Container label,
+.Container input,
+.Container textarea,
+.Container button {
+    display: flex;
+     margin-bottom: 10px;
+}
+.Main{
+    padding-left: 40px;
+}
+.input{
+    width: 600px;
+    height: 50px; 
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: #000;
+    padding-left: 12px;
+    border-radius: 10px;
+    padding-right: 15px;
+}
+.button{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #ffffff;
+    width: 200px;
+    border: none;
+    background-color: #185CAC;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+    height: 54px;
+    flex-shrink: 0;
+}
+.fileInput {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 10px;
+  }
+  .fileInput img {
+    width: 300px;
+  }
+  .fileInput span {
+    margin-top: -5px;  
+  }
+  .fileInput img:hover{
+    cursor: pointer;
+    filter:brightness(3)
+  }

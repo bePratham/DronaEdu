@@ -1,0 +1,22 @@
+.container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    border-radius: 15px;
+    background: #FFA500;
+    width: 290px;
+    height: 180px;
+    flex-shrink: 0;
+    box-shadow: 5px 7px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 24px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}

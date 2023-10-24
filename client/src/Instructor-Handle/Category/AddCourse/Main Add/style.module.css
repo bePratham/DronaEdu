@@ -1,0 +1,63 @@
+.Container{
+    margin-top: 20px;
+    height: 1100px;
+    padding-top: 45px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.Rectangle{
+    padding: 20px;
+    padding-right: 40px;
+    width: 950px;
+    height: 260px;
+    border-radius: 20px;
+    border: 4px solid #696984;
+    background: #FFF;
+    box-shadow: 8px 11px 6px 3px rgba(178, 197, 248, 0.25);
+}
+.Create{
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 274px;
+    color: #FFF;
+    font-family: PT Sans;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     height: 70px;
+     float: right;
+     border: none;
+    background: #FF6652;
+    transition: background-color 0.3s;
+}.Create:hover {
+    background-color: #0056b3;
+  }
+  .CARDS{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .Card{
+    width: 300px;
+    height: 390px;
+    flex-shrink: 0;
+    padding: 30px 40px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: #FFF;
+    text-align: center;
+    border: none;
+    box-shadow: 11px 9px 12px 4px rgba(0, 0, 0, 0.25);
+  }
+  .button{
+    border-radius: 15px;
+border: 1px solid #000;
+background: #FFF;
+    width: 200px;
+    height: 50px;
+  }
+  .Card:hover{
+    border: 1px solid #121C8F;
+    box-shadow: 6px 9px 12px 4px rgba(0, 0, 0, 0.25);
+  }

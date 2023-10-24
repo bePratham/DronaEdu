@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "assignments": 5,
+      "studyMaterial": "PDF, Video",
+      "member": true
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "assignments": 3,
+      "studyMaterial": "PDF",
+      "member": false
+    }
+  ]
+  
