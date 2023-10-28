@@ -1,0 +1,79 @@
+.ProfilePage{
+    margin-top: 40px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.ProfileImageContainer{
+    width: 1200px;
+    height: 190px;
+    border-radius: 100px 0px 0px 0px;
+    background: rgba(11, 100, 233, 0.44);
+    padding-top: 90px;
+    display: flex;
+    padding-left: 40px;
+}
+.ProfileImageContainer img{
+    border-radius: 50%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+}
+.ProfileName{
+    margin-top: 120px;
+    margin-left: 20px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ProfileDetails{
+    margin-top: -60px;
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} 
+.ProfileDetailItem {
+    display: block;  
+    margin-bottom: 10px; 
+  }
+  
+  .ProfileDetailItem label {
+    display: flex; 
+    width: 350px; 
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .ProfileDetailItem input {
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin-bottom: 10px;
+  }
+  .button{
+    width: 190px;
+    height: 50px;
+    color: #FFF;
+    border-radius: 15px;
+    background: #0B64E9;
+    line-height: 2;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .button:hover{
+    cursor: pointer;
+    filter: brightness(1.3);
+  }
