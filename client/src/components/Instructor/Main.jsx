@@ -24,7 +24,7 @@ const InstructorPage = () => {
          src={course.thumbnail} alt="Left Image" />
       </div>
       <div className={styles.middleColumn}>
-          <h1>{course.brand}</h1>
+          <h1 style={{width:'100px'}}>{course.brand}</h1>
       </div>
       <div className={styles.rightColumn}> 
         <h1>Stars...</h1>

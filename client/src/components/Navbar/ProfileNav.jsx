@@ -3,7 +3,7 @@ import style from './Banner.module.css';
 import { useUser } from '../../ContextProvider';
 import { useNavigate,Link } from 'react-router-dom';
 const ProfileNav = () => {
-  const { user } = useUser();
+  const { user,logout } = useUser();
   const navigate=useNavigate();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const toggleDropdown = () => {
@@ -20,7 +20,8 @@ const ProfileNav = () => {
     display: isDropdownOpen ? 'block' : 'none',
   };  
     const handleLogOut=()=>{
-      localStorage.removeItem('isLoggedIn');
+      
+      logout();
       navigate('/');
       window.location.reload();
     }
@@ -29,7 +30,7 @@ const ProfileNav = () => {
       <div className={style.profileImageContainer}>  
         <img  onClick={toggleDropdown}  style={{borderRadius:'50%'}}
         height={'56px'} width={'56px'}
-          src={user.image}
+          // src={user.image}
           alt="UserImage"  />
 
         <div style={dropdownStyle} onBlur={closeDropdown}>
@@ -50,7 +51,7 @@ const ProfileNav = () => {
           </ul>
         </div>
       </div>
-      {user.name}
+      {user.username}
     </div>
   );
 };

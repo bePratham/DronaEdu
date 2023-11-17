@@ -1,10 +1,12 @@
 import React from "react";
 import style from './Banner.module.css';
 import { Link } from "react-router-dom";
-import Register from "./Register";
+import RegisterButton from "./RegisterButton";
+import SigninButton from './SignInButton'
 import ProfileNav from "./ProfileNav";
 const Navbar = () => {
-  const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';  
+  const studentLoggedIn = localStorage.getItem('studentLoggedIn') === 'true';  
+  const instructorLoggedIn = localStorage.getItem('instructorLoggedIn') === 'true';  
   
     return (
       <div className={style.Container}>
@@ -36,7 +38,7 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>        
-            {isLoggedIn ?  <ProfileNav />   : <Register />  }
+            {instructorLoggedIn|| studentLoggedIn?  <ProfileNav />   : (<div style={{display:'flex',gap:'25px'}}><SigninButton /> <RegisterButton /></div> )}
       </div>
     </nav>
         </div>
