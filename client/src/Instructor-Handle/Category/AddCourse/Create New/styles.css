@@ -1,0 +1,36 @@
+  
+  .file-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .file-preview {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .file-preview img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .file-label {
+    cursor: pointer;
+    border: 2px solid #0a0909;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+  }
+  

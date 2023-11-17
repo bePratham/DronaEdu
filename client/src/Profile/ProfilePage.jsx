@@ -5,13 +5,13 @@ const ProfilePage = () => {
   const { user } = useUser();
   const [profileData, setProfileData] = useState({
     image:user.image,
-    name: user.name,
+    name: user.username,
     email: user.email,
-    mobile: user.mobile,
+    mobile: user.mobileNo,
     whatsapp: user.whatsapp,
     institute: user.institute,
-    city: user.city,
-    dob: user.date,
+    city: user.location,
+    dob: "2001-01-01",
   });
 
   const handleChange = (event) => {

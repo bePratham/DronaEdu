@@ -6,6 +6,9 @@ const usersData = [
     { id: 2,name:'Pranshu' ,email: 'user2@example.com', 
     password: 'password2' ,image:'https://loremflickr.com/640/368',mobile:'100',
     whatsapp:'123',institute:'IPEC',city:'ghaziabad',date:'2001-02-20',position:'admin' },
+    { id: 3,name:'Shoiab ', email: 'user3@example.com',
+    password: 'password1' ,image:'https://loremflickr.com/640/368',mobile:'100',
+    whatsapp:'123',institute:'JECRC',city:'Pune',date:'2001-02-20',position:'student' },
               ];
   
   export default usersData;

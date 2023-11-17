@@ -3,17 +3,17 @@ import { Routes,Route } from 'react-router-dom'
 import InstructorLayout from './InstructorLayout';
 import Dashboard from './Category/Dashboard/Main'
 import Refer from "./Category/Refer";
-import AddCourse from "./Category/AddCourse/Main Add/Add Course";
+import Add from "./Category/AddCourse/Landing Page/Add";
 import AddAssignmentForm from "./Category/AddCourse/Add Assignment/AddAssignment";
 import AddMaterialForm from "./Category/AddCourse/Add Assignment/AddMaterial"; 
 import MyCourses from './Category/MyCourses/MyCourses';
-import AddBatch from './Category/AddCourse/Create New/AddBatch';
+import AddCourse from './Category/AddCourse/Create New/AddCourse';
 import Batches from './Category/AllBatches/AllBatches';
 const InstrutorRoutes = () => {
   return (
     <Routes>
-    <Route  path="/" element={ <InstructorLayout> <AddCourse/> </InstructorLayout> } /> 
-    <Route  path="/addBatch" element={ <InstructorLayout> <AddBatch/> </InstructorLayout> } /> 
+    <Route  path="/" element={ <InstructorLayout> <Add/> </InstructorLayout> } /> 
+    <Route  path="/addCourse" element={ <InstructorLayout> <AddCourse/> </InstructorLayout> } /> 
     <Route  path="/addAssignment" element={ <InstructorLayout> <AddAssignmentForm/> </InstructorLayout> } /> 
     <Route  path="/addMaterial" element={ <InstructorLayout> <AddMaterialForm/> </InstructorLayout> } /> 
     <Route  path="/dashboard" element={ <InstructorLayout> <Dashboard/> </InstructorLayout> } /> 
