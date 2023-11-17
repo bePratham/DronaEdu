@@ -5,7 +5,7 @@ import style from './style.module.css';
 const Card = ({ courses }) => {
   const navigate = useNavigate();
   const handleClick = (course) => { 
-    navigate(`/instructor-detail/${course.id}/`);
+    // navigate(`/instructor-detail/${course.id}/`); //NAVIGATE TO ITS MENTOR PAGE
   };
   return (
     <div className={style.cardContainer}>
@@ -18,13 +18,17 @@ const Card = ({ courses }) => {
           <img
             width={'290px'}
             height={'270px'}
-            src={course.thumbnail}
+            style={{backgroundColor:'#fff'}}
+            src="https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/avatar-icon.png"
+            // src={course.thumbnail}
             alt={course.title}
           />
           <h2 style={{ fontSize: '16px', color: '#0A033C', marginTop: '10px' }}>
-            {course.title}
+            Name
+            {/* {course.title} */}
           </h2>
-          <p>{course.brand}</p>
+          {/* <p>{course.brand}</p> */}
+          <p>Field</p>
         </div>
       ))}
     </div>

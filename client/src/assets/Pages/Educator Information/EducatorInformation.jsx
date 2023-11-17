@@ -1,8 +1,16 @@
 import React, { useState } from 'react';
 import drona from './Drona.png';
 import styles from './style.module.css';
+import { useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 const EducatorForm = () => {
+  const navigate=useNavigate();
+  const location = useLocation();
+  const instructorId = location.state;
+  
+  console.log(instructorId);
+  
   const [formData, setFormData] = useState({
     name: '',
     gender: '',
@@ -21,7 +29,11 @@ const EducatorForm = () => {
 
   const handleChange = (event, field) => {
     const updatedFormData = { ...formData };
-    updatedFormData[field] = event.target.value;
+    if (field === 'location') {
+      updatedFormData[field] = event.label; 
+    } else {
+      updatedFormData[field] = event.target.value;
+    }
     setFormData(updatedFormData);
   };
 
@@ -32,6 +44,7 @@ const EducatorForm = () => {
   };
   const save = () => {
     console.log(formData);
+    navigate('/Instructorsignin')
   };
 
   return (
@@ -123,17 +136,8 @@ const EducatorForm = () => {
               onChange={(event) => handleChange(event, 'postalCode')}
             />
           </div>
-          <div style={{ display: 'flex', width: '480px', border: '1px solid #000', borderRadius: '20px', paddingLeft: '20px' }}>
-            <label htmlFor="resume">Upload Resume:</label>
-            <input
-              type="file"
-              id="resume"
-              name="resume"
-              onChange={(event) => handleFileChange(event, 'resume')}
-            />
-          </div>
-        </div>
-        <div className={styles.formRow}>
+         
+       
           <div className={styles.formField}>
             <input
               type="text"
@@ -144,15 +148,7 @@ const EducatorForm = () => {
               onChange={(event) => handleChange(event, 'location')}
             />
           </div>
-          <div style={{ display: 'flex', width: '480px', border: '1px solid #000', borderRadius: '20px', paddingLeft: '20px' }}>
-            <label htmlFor="document">Add Document ☁️ &#160;</label>
-            <input
-              type="file"
-              id="document"
-              name="document"
-              onChange={(event) => handleFileChange(event, 'document')}
-            />
-          </div>
+          
         </div>
        <div className={styles.formRow}>
        <div style={{display:'flex',flexDirection:'column',gap:'10px'}}>

@@ -6,7 +6,7 @@ import ForgotPassword from './ForgotPassword';
 import OTP from './OTP';
 import PasswordChange from './PasswordChange';
 import PasswordChangeSuccess from './PasswordChangeSuccess.jsx';
-import LoginPage from '../../../components/Login&SignUp/Login/login';
+import StudentLogin from '../../../components/Login&SignUp/Login/StudentLogin.jsx';
 const Main = () => {
   return (
     <div className={style.container}>
@@ -19,7 +19,7 @@ const Main = () => {
           <Route path="/otp" element={<OTP />} />
           <Route path="/passwordChange" element={<PasswordChange />} />
           <Route path="/passwordChangeSuccessFul" element={<PasswordChangeSuccess />} />
-          <Route path="/signin" element={<LoginPage />} /> 
+          <Route path="/signin" element={<StudentLogin />} /> 
         </Routes>
       </div>
   </div>
