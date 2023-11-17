@@ -1,0 +1,23 @@
+.heading{
+    font-family: monospace ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card{
+    width: 274px;
+    height: 97px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #2F327D;
+    font-family: monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

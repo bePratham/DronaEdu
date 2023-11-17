@@ -1,0 +1,49 @@
+.layout {
+    display: flex;
+    /* height: 100vh;  */
+    background-color: #EDF5FD;
+  }
+  .navbar {
+    flex: 21%; 
+    border-radius: 0px 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 1); 
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+  }
+  .children {
+    flex: 77%; 
+    background-color: #EDF5FD;
+    padding: 26px;
+  }
+  /* Navbar */
+  .optBut{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 230px;
+    height: 60px;
+    border-radius: 8px;
+    background: rgba(216, 222, 237, 0.15);
+    color: #767372;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 9px;
+  }
+  .optBut p{
+    display: flex;
+  }
+  .optBut :hover{
+    cursor: pointer;
+  }
+  .optBut.selected {
+    background: #3649f9;
+    color: #fff; 
+  }
+  .optBut.selected img {
+    filter: brightness(0) invert(1);
+  }
